@@ -18,4 +18,4 @@ metodo para manipular listas
 ### teoria
 en javascript hay prototipos,  clase prototipo string, con atributos y metodos definidos.
 length es un atributo y no se pone con parentesis, se puede invocar tanto para string como para array
-los metodos van con parentesis, los atributos y propiedades sin
+los metodos van con parentesis, los atributos y propiedades sin 
