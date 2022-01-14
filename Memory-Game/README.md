@@ -14,7 +14,7 @@ El método querySelectorAll() de un Element devuelve una NodeList estática (no 
 ### appendChild
 suma un item a una lista, agrega un nodo y lo define como el ultimo hijo de un nodo. 
 metodo para manipular listas
-
+ 
 ### teoria
 en javascript hay prototipos,  clase prototipo string, con atributos y metodos definidos.
 length es un atributo y no se pone con parentesis, se puede invocar tanto para string como para array
