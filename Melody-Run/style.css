@@ -1,0 +1,53 @@
+.melody {
+    position:absolute;
+    width: 75px;
+    height: 100px;
+    background-image: url(images/melody.png);
+    bottom: 0px;
+}
+
+.kuromi {
+    position: absolute;
+    width: 131px;
+    height: 100px;
+    background-image: url(images/kuromi.png);
+    bottom: 0px;
+}
+
+.frutillita {
+    visibility: visible;
+    position: absolute;
+    width: 28px;
+    height: 30px;
+    background-image: url(images/frutillita.png);
+    bottom: 150px;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 80000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  @-webkit-keyframes slideright {
+    from {
+        background-position: 80000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+
+  #garden {
+    position: absolute;
+    bottom: 5px;
+    background-image: url('images/background.jpg');
+    background-repeat: repeat-x;
+    animation: slideright 1000s infinite linear;
+    -webkit-animation: slideright 10000s infinite linear;
+    width: 100%;
+    height: 455px;
+  }
