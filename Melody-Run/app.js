@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded',()=>{
 const melody = document.querySelector('.melody');
 const grid = document.querySelector('.grid');
 const alert = document.getElementById('alert');
+const audio = document.getElementById('audio');
+
 
 let jumping = false;
 let gravity = 0.9;
@@ -12,6 +14,8 @@ function control(e) {
         if (!jumping) {
             jumping = true;
             jump();
+            audio.play();
+
           }
     }
 
@@ -75,7 +79,6 @@ function generateFrutillita(){
     frutillita.classList.add('frutillita');
     grid.appendChild(frutillita);  // makes an append of the frutillita into the grid
     frutillita.style.left = frutillitaPosition + "px";
-
     let timerId = setInterval(function() {
         if (frutillitaPosition > 0 && frutillitaPosition < 20 && position >= 50) {
             //remove all children
