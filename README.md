@@ -4,7 +4,10 @@ Here i will share the games i develop for learning JavaScript. For now, most of 
 ### Kawaii Memory Game
 💻 [Code Inspiration](https://github.com/kubowania/memory-game) <b>from freeCodeCamp.org</b>
 
-Learn:
+### Melody Run Game
+💻 [Code Inspiration](https://github.com/kubowania/chrome-trex-game) <b>from freeCodeCamp.org</b>
+
+#### Learnt:
   - push()
   - querySelector()
   - SetAttribute()
