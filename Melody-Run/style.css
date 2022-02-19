@@ -8,8 +8,8 @@
 
 .kuromi {
     position: absolute;
-    width: 131px;
-    height: 100px;
+    width: 79px;
+    height: 60px;
     background-image: url(images/kuromi.png);
     bottom: 0px;
 }

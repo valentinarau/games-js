@@ -58,7 +58,7 @@ function generateKuromis() {
     kuromi.style.left = kuromiPosition + "px";
     generateFrutillita();
     let timerId = setInterval(function() {
-        if (kuromiPosition > 0 && kuromiPosition < 60 && position <= 100) {
+        if (kuromiPosition > 0 && kuromiPosition < 20 && position <= 100) {
             clearInterval(timerId);
             gameOver = true;            
             alert.innerHTML = 'Game Over';
@@ -80,7 +80,7 @@ function generateFrutillita(){
     grid.appendChild(frutillita);  // makes an append of the frutillita into the grid
     frutillita.style.left = frutillitaPosition + "px";
     let timerId = setInterval(function() {
-        if (frutillitaPosition > 0 && frutillitaPosition < 20 && position >= 50) {
+        if (frutillitaPosition > 0 && frutillitaPosition < 30 && position >= 50) {
             //remove all children
             grid.removeChild(frutillita);
             }
